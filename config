@@ -1,0 +1,109 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJYmVCdlNJWnB0bU13RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBNU1UZ3hNRFF4TXpKYUZ3MHpOREE1TVRZeE1EUTJNekphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURMSkxNc0dKVGFIMmcxYit1WUI1SHpDNGlsYjBwdXloQ3RJRS9QSW85RXZrRExqbmp2bWJNdkhLQ0sKS1V3UHVORXI1dGlFS29wZzdIdldIKzFRbDFaNm5lTldWYzAxK3pYa3hPN1lEYXYxY1J3eElPMU54WWx0Zm1IMQpWeDR5YzZSZnVPWlNQL21CT3RDMnQyS3VJZUJnem1hNDBvbGJYOGxjczZMWVA5UkxhbXBjZVVJenNiZ0hvNitnCnFZS0ZTcDIwTWIvU3Y0WE9GZzVaVm9TL0hTZG1LVzZDNnRQbXVSSmtkWnQ5elF1cUkxb2xxenA4Tk1YSXUxQ2IKTmlnU2U3UW90ZDF2NTNqMEpYN2c4L243ZnVmZVFuMWtiY2NTTTFoT1d0RmROOEVRZWZNUGVnenQ5V2tiRHNMegovbjRYUDFTMDg3Vko1bWRrMCsyeFJSWWJPT2x0QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTdjZLZWRlOWUrN0hUWTBWZno0dUM1WlV2Rkl6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQXJhTEJVemEvYQpDVU9lZXpmOEtWZ24vWUw5cVVkMXNkN1F1QVZnc2FZVlhTTW5KL0tFNXVuTDJ0RWJMTTNMNEErclJSem83ZmlYCjc4bGdhZ3htU0dUNTFLTnB3M3Y4ZHkvWGRTOENFeHpRRGd2dUs2am5ONk44VWlRNlBia25MQ3B6TVVmblpteUcKWWwxWmptTGR2U2pJK2pRYWREQjh3ZS9WWnppNTdtNnJTM0I5QVMzOVhJaGZqUlh6MXBPTW1JeWlqSnlKVVFEUAptVGJXVG9UdzgvQjhWdzVBQ3lWMkVNNCt2Mkh1WDFpemNOUkFTalF0dXRFVnNOdHVlUE9FT1E1TmRjYmlLN1o4CkcwaUgrWDd4MFViNTdIZ3hVWXlub1RJcnUvL3F2U2U0Y0pNblZXQXNUQWJFRHRaMWsyNm50VkFHbk5KOUdNRkUKU2QvUTZuZGJiWUFWCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://89B19F565DE3EDC58EB7EF434703F8AB.gr7.eu-central-1.eks.amazonaws.com
+  name: arn:aws:eks:eu-central-1:654654529400:cluster/ec2-user-karpenter-demo
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJYU1UOHNENzBJNW93RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRFd01ESXdPVFU0TXpGYUZ3MHpOREE1TXpBeE1EQXpNekZhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUR1aEVuT0czVjV2M0FUZ2FHdW1zTExJU2JiVWtpbjRjbEZ4UVZlOVFPREQ2bDNzNVZSQ3lrci81dFkKLzJRQ0tIQXB3OTRrcGJ2elpRRXNIejVpVFBmcyttZnVhTFhpZHhqdWwrck5hV3cwa3BUZWRKQUgrOVV4YUVJeAp3SHVZNnJZd1Q1Z3ZwYWVidEZXYitnMDJWdkl2b2piSmptZHpuaHA3ZG9aN3JIcnVwVUl6YzVVUCtJMWFjSTlzCjVWaEhqT2ZDL25PbFRLZXhGd1hGUlY5UDJvbzFJRjVpb3MwalJ0cFhyaTVNM1phc3FrQ1l5VVEyZjZxV3FsUUIKR1JzWEFCOFkzTUVkZU9LTHlyZ3IyK210UGRLb3VCNEVYbVYzTlpqbmhXdmlKL245bHIwTkNuUHBYQjh4V1RzVwo4ckQycVZvWkZEWlA0Z0hwRS83aHdnMjkraXZ6QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSSk0xaUUrWEQ1NDFHcmU5OVdVMzlsdzFUMTJEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQjBpbno2aVg1WgplNHdXekJMcWM3NkhhRzZ5eXorQmViTE9KZUNZNGU0ZGhwSWkvcis1R01xbTVhTkF6WFY3K0s2ZGUyRHRvVWtQCnNJcXA1VFBnSk0yKzBMUTFpcS82SFE4SC9leExFSjRzNDJxdVc1QXB6RGJwSWV0eGF0NUNUdG9qcXNNZ0dMeXUKNC9GaHd5WUo4NlkvSGpLQ0NrNzZYeGt6d1dqbDUvQ1F1RG8rSFloTDZnQ1NjRGdIYXAzNFd4aFZ1RkZWcGo2QQp3Z1BhSUpoVEJ2WDhjaU9BV2YxMlV4eWN5aTc4bldZUnZlSXEwdHVmOFdQUUNVQUErTGl2bmplb1BmS0J6MDR1CkdNVytvQXZFWk43ZEZwSEdxNGVFa0l6d01xVkMyNlBxZWJoUldLVjZWYzdPRjk2cFBIa3Qwd1BIWDYrVDZtWDAKRmJNZ210SVFXVDFQCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://EFAE0085EA2F9A362F24F19D2F3EFCA5.yl4.eu-west-1.eks.amazonaws.com
+  name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWXBxc1NySi9LOTR3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBNE1qY3dPVE0xTVRaYUZ3MHpOREE0TWpVd09UUXdNVFphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNTNkoydnY1TXdXTlZ4bU9lUFhTQlRxRjRUQ3BoMVArdGY1aWdHMjRPQjRxSTl1NVE0dVVqb2xGcGwKOEltSGs4OU9MZis0QmkzRC9ubFcxWE95NTlhRUtjZUJ6Mkh3VFJXTVZZRVUvd091WWI1ZklpWGM3MDlZZWlZagozWXpCTkVpS3E4dWhoVTNxajJYM08zOFNRMFVubXM3MHArbUxvYnZJSDY0clZadEFQd2I5UFdseG80SUpjSXVmClBTbGU5aWhHZUZBYUlzRXF1U1ZUdWNHYlZOZVJmSy90RHlSM0t3SFRaZUJWMmN1NEh5OUtjMUxCMnhIZWNtcUcKZlJ0SGtKWFNML0lETDZXVXlQbUZ6d1BlZWZmSEt4Y3pwUEszc0VSU01abGpuM01CaEZuS04rbURnaXZzSkZ3UgpUcW9JYmdINkJWSC95bGljTG41THBEbWJRaHBaQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTaGpKWXBOaDcrUUVKM0FWQVB4VDBhTURmM1dEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQXRaM0xmbHBBWQpUM1lsMXlocFlGcHB4OHdwMXl0NU8yaFZsQ3ZUekhuM1o4UGVIS0pqQWxiaUovUkNnUUF0U1FGWWgva2dQU0ppCi9WYkNJeHZQT0hyL1FIZkNTZHlhZ0Vvc3ZveitXNFlkc09NYStmdUFtMzVDb1ArcGFlOHg2cGthb1hkR3hUU1IKZWpXTmU5Vzl4aGtBZ0Jtd2xlTEt3Y25FOXFwdmQxZVBUN1ZQN3VGOWRNcHpRTE81Z1poVnNkS1hjNEkrZ21OdwpwcldqMWhHRFREMndnZVVPVVFOWk01NENmU3MycjMzanhzaUx6WlNXa0o1dlpsREd4NGVwK2xUSDlqVS9INFhnCkNsck84cUtiVjB6Q0NuemZsR3Exdld1aXQvWlcvRWxmUVYvbFRwVnlCNzJuK3BGMW45ZnY0NERLUmVIYmZIWEIKMHZzWStCVXprZmpuCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://74D33A53F0A355681DCD2BDB67489AF9.gr7.eu-west-1.eks.amazonaws.com
+  name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+- cluster:
+    server: ""
+  name: eks-cluster-terraform
+- cluster:
+    server: ""
+  name: eks-work
+contexts:
+- context:
+    cluster: arn:aws:eks:eu-central-1:654654529400:cluster/ec2-user-karpenter-demo
+    user: arn:aws:eks:eu-central-1:654654529400:cluster/ec2-user-karpenter-demo
+  name: arn:aws:eks:eu-central-1:654654529400:cluster/ec2-user-karpenter-demo
+- context:
+    cluster: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+    user: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+  name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+- context:
+    cluster: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+    user: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+  name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+- context:
+    cluster: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+    user: default
+  name: default
+current-context: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:eu-central-1:654654529400:cluster/ec2-user-karpenter-demo
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - eu-central-1
+      - eks
+      - get-token
+      - --cluster-name
+      - ec2-user-karpenter-demo
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-cluster-terraform
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - eu-west-1
+      - eks
+      - get-token
+      - --cluster-name
+      - eks-cluster-terraform
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: arn:aws:eks:eu-west-1:654654529400:cluster/eks-work
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - eu-west-1
+      - eks
+      - get-token
+      - --cluster-name
+      - eks-work
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: default
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - eu-west-1
+      - eks
+      - get-token
+      - --cluster-name
+      - eks-work
+      - --output
+      - json
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
