@@ -1,3 +1,5 @@
+# Filter out local zones, which are not currently supported 
+# with managed node groups
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
