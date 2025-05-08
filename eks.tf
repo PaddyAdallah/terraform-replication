@@ -23,7 +23,7 @@ module "eks" {
     # One access entry with a policy associated
     example = {
       principal_arn = "arn:aws:iam::654654529400:user/lens"
-
+    
       policy_associations = {
         example = {
           policy_arn = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy"
@@ -59,9 +59,9 @@ module "eks" {
 
       instance_types = ["t3.medium"]
 
-      min_size     = 2
-      max_size     = 3
-      desired_size = 2
+      min_size     = 1
+      max_size     = 2
+      desired_size = 1
       
       labels = {
       # Used to ensure Karpenter runs on nodes that it does not manage

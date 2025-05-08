@@ -36,6 +36,7 @@ resource "helm_release" "karpenter" {
       # interruptionQueue: ${module.karpenter.queue_name}
     webhook:
       enabled: false
+    replicas: 1
     EOT
   ]
 }
